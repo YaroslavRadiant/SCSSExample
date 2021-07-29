@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fresca", sans-serif;
+  color: white;
+  background: #21232e; }
+
+.header {
+  background-image: url("../img/m-h-night.jpg");
+  background-size: 100% 100%;
+  padding: 20px 147px;
+  height: 650px;
+  border-bottom-right-radius: 585px 280px; }
+
+.landing-logo, .footer_logo {
+  display: flex; }
+  .landing-logo p, .footer_logo p {
+    margin: 0 12px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    align-self: flex-start; }
+    .landing-logo p span, .footer_logo p span {
+      display: block;
+      font-size: 9.5px;
+      text-align: center;
+      line-height: 18px;
+      font-weight: 600; }
+
+.header_heading {
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 65px;
+  margin-bottom: 33px;
+  width: 40%;
+  line-height: 72px;
+  position: relative;
+  z-index: 1;
+  letter-spacing: 0px;
+  font-family: "Source Sans Pro", sans-serif; }
+  .header_heading::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 46%;
+    height: 50px;
+    background: #ff4e33;
+    bottom: 0;
+    z-index: -1; }
+
+.header_text {
+  width: 55%;
+  white-space: pre-line;
+  line-height: 22px; }
+
+.header_button {
+  background: #e3ac00;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 14px 43px;
+  margin-top: 48px; }
+
+.login {
+  color: white;
+  font-size: 1.15rem;
+  letter-spacing: 0.5px;
+  font-family: "Fresca", sans-serif;
+  margin-left: 142px; }
+
+.section_text {
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 25px; }
+  .section_text::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10%;
+    height: 50px;
+    background: #ff4e33;
+    bottom: 7px;
+    left: 960px;
+    z-index: -1; }
+
+.section_card_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around; }
+
+.section_card {
+  width: 59%;
+  background: #3b3f50;
+  height: 270px;
+  border-radius: 5px;
+  margin: 10px 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.section_card_img {
+  display: block;
+  height: 85%;
+  width: 115%;
+  margin: 20px;
+  border-radius: 5px; }
+
+.section_card_right_container {
+  padding: 0 100px 0 60px;
+  color: #c0c3ce; }
+
+.section_card_heading {
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 9px 0; }
+
+.section_card_text {
+  font-family: "Fresca", sans-serif;
+  text-align: justify;
+  line-height: 24px; }
+
+.section_link {
+  color: white;
+  font-size: 1.15rem;
+  letter-spacing: 0.5px;
+  font-family: "Fresca", sans-serif;
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+  color: #c0bebf; }
+
+.section_banner {
+  width: 62%;
+  background: linear-gradient(to right, #e3ac00, #963150);
+  margin: 0 auto;
+  border-radius: 5px;
+  position: relative;
+  top: 116px;
+  box-sizing: border-box;
+  padding: 25px 95px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.section_banner_heading {
+  font-family: "Source Sans Pro", sans-serif;
+  position: relative;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 14px; }
+  .section_banner_heading::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 16%;
+    height: 50px;
+    background: #ff4e33;
+    bottom: 0;
+    left: 115px;
+    z-index: -1; }
+
+.section_banner_text {
+  color: #d1d1d1;
+  font-weight: 500;
+  font-size: 16px; }
+
+.section_banner_button {
+  background: #e3ac00;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 14px 43px; }
+
+.footer {
+  background: #3b3f50;
+  box-sizing: border-box;
+  height: 200px;
+  margin-top: 50px;
+  padding: 110px 147px; }
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #d1d1d1; }
+
+.footer_text {
+  width: 27%;
+  font-size: 15px;
+  letter-spacing: 0px; }
